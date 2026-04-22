@@ -1,6 +1,7 @@
 import json
 import re
 from pathlib import Path
+from collections import defaultdict, deque
 
 
 def slugify(value: str) -> str:
@@ -179,7 +180,98 @@ def fill_connections():
         add_connection(frm, to, "Infrastructure", "Multi-modal", 2 if i < 6 else 1, max(2000, 14000 - i * 1300), min(0.75, 0.69 - i * 0.05), 7 + i, 0.93 - i * 0.01, True, "Active mobility access corridor", "Zurich Transport", False, i in {0, 3}, "High" if i < 2 else "Medium" if i < 6 else "Low", ["infrastructure", "resilience"])
 
 
+def compute_proximity_weights():
+    for connection in connections:
+        transfer_penalty = 0.85 if connection["requires_transfer"] else 1.0
+        reliability = max(0.5, connection["reliability_score"])
+        utilization_factor = 1.0 + (connection["capacity_utilization"] - 0.5) * 0.4
+        raw_weight = connection["frequency_per_hour"] * reliability * transfer_penalty * utilization_factor
+        connection["proximity_weight"] = round(max(0.1, raw_weight), 4)
+
+
+def compute_node_centrality_metrics():
+    node_by_label = {node["label"]: node for node in nodes}
+    n = len(nodes)
+    if n < 2:
+        return
+
+    neighbors = defaultdict(set)
+    degree_counts = defaultdict(int)
+    weighted_degree = defaultdict(float)
+
+    for edge in connections:
+        u = edge["from"]
+        v = edge["to"]
+        w = edge["proximity_weight"]
+        neighbors[u].add(v)
+        neighbors[v].add(u)
+        degree_counts[u] += 1
+        degree_counts[v] += 1
+        weighted_degree[u] += w
+        weighted_degree[v] += w
+
+    # Brandes betweenness centrality for unweighted, undirected graph.
+    betweenness = dict.fromkeys(node_by_label.keys(), 0.0)
+    for source in node_by_label.keys():
+        stack = []
+        pred = defaultdict(list)
+        sigma = dict.fromkeys(node_by_label.keys(), 0.0)
+        sigma[source] = 1.0
+        dist = dict.fromkeys(node_by_label.keys(), -1)
+        dist[source] = 0
+        queue = deque([source])
+
+        while queue:
+            v = queue.popleft()
+            stack.append(v)
+            for w in neighbors[v]:
+                if dist[w] < 0:
+                    queue.append(w)
+                    dist[w] = dist[v] + 1
+                if dist[w] == dist[v] + 1:
+                    sigma[w] += sigma[v]
+                    pred[w].append(v)
+
+        delta = dict.fromkeys(node_by_label.keys(), 0.0)
+        while stack:
+            w = stack.pop()
+            for v in pred[w]:
+                if sigma[w] > 0:
+                    delta[v] += (sigma[v] / sigma[w]) * (1 + delta[w])
+            if w != source:
+                betweenness[w] += delta[w]
+
+    # Undirected graph normalization
+    if n > 2:
+        scale = 1.0 / ((n - 1) * (n - 2) / 2.0)
+    else:
+        scale = 1.0
+
+    max_weighted_degree = max(weighted_degree.values()) if weighted_degree else 1.0
+
+    for label, node in node_by_label.items():
+        node["degree_centrality"] = round(degree_counts[label] / (n - 1), 6)
+        node["weighted_degree_centrality"] = round(weighted_degree[label] / max_weighted_degree, 6)
+        node["betweenness_centrality"] = round(betweenness[label] * scale, 6)
+
+        score = (
+            0.45 * node["weighted_degree_centrality"]
+            + 0.35 * node["degree_centrality"]
+            + 0.20 * node["betweenness_centrality"]
+        )
+        node["network_influence_score"] = round(score, 6)
+
+        if score >= 0.66:
+            node["centrality"] = "High"
+        elif score >= 0.33:
+            node["centrality"] = "Medium"
+        else:
+            node["centrality"] = "Low"
+
+
 fill_connections()
+compute_proximity_weights()
+compute_node_centrality_metrics()
 
 assert len(nodes) == 54, f"Expected 54 nodes, got {len(nodes)}"
 assert len(connections) == 100, f"Expected 100 connections, got {len(connections)}"
@@ -191,6 +283,7 @@ for connection in connections:
     assert connection["from"] in labels and connection["to"] in labels
     assert 0 <= connection["capacity_utilization"] <= 1
     assert 0 <= connection["reliability_score"] <= 1
+    assert connection["proximity_weight"] > 0
 
 output = {"elements": nodes, "connections": connections}
 output_path = DATA_DIR / "zurich_mobility_system.json"

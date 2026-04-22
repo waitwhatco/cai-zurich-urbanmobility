@@ -27,6 +27,7 @@ Each element includes:
 - `daily_users_estimate`, `interchange_capacity`, `accessibility`
 - `has_parking`, `has_bikeshare`, `has_carshare`, `first_mile_last_mile`
 - `centrality`, `is_regional_gateway`
+- `degree_centrality`, `weighted_degree_centrality`, `betweenness_centrality`, `network_influence_score`
 - `tags` (array)
 
 ## Connection Schema
@@ -36,6 +37,7 @@ Each connection includes:
 - `from`, `to`, `id`, `type`
 - `mode`, `frequency_per_hour`, `direction`
 - `estimated_daily_volume`, `capacity_utilization`
+- `proximity_weight`
 - `avg_travel_time_minutes`, `reliability_score`, `requires_transfer`
 - `route_name`, `operator`
 - `is_bottleneck`, `is_key_corridor`, `resilience_importance`
@@ -57,8 +59,9 @@ Volumes, utilization, and reliability are intentionally normalized for comparati
 Recommended mappings:
 
 - Element size: `daily_users_estimate`
-- Element color: `centrality` or `role`
+- Element color: `network_influence_score` (or `centrality` for a simpler categorical view)
 - Edge thickness: `frequency_per_hour`
+- Edge layout pull/visual proximity: `proximity_weight`
 - Edge color: `mode`
 - Edge style: dashed when `is_bottleneck = true`
 - Stress lens: `capacity_utilization >= 0.8`

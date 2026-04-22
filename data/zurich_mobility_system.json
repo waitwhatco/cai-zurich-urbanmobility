@@ -17,13 +17,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes, Walk",
-      "centrality": "High",
+      "centrality": "Medium",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "regional-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.226415,
+      "weighted_degree_centrality": 0.773837,
+      "betweenness_centrality": 0.834881,
+      "network_influence_score": 0.594448
     },
     {
       "label": "Stadelhofen",
@@ -42,13 +46,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Bikes, Walk",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "city-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.132075,
+      "weighted_degree_centrality": 0.423658,
+      "betweenness_centrality": 0.271329,
+      "network_influence_score": 0.291138
     },
     {
       "label": "Zürich Oerlikon",
@@ -73,7 +81,11 @@
         "zurich-mobility",
         "regional-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.283019,
+      "weighted_degree_centrality": 1.0,
+      "betweenness_centrality": 0.870327,
+      "network_influence_score": 0.723122
     },
     {
       "label": "Zürich Altstetten",
@@ -92,13 +104,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Bikes, Walk",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "regional-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.132075,
+      "weighted_degree_centrality": 0.37238,
+      "betweenness_centrality": 0.409579,
+      "network_influence_score": 0.295713
     },
     {
       "label": "Zürich Wiedikon",
@@ -117,13 +133,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes, Walk",
-      "centrality": "High",
+      "centrality": "Medium",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "city-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.150943,
+      "weighted_degree_centrality": 0.464106,
+      "betweenness_centrality": 0.895953,
+      "network_influence_score": 0.440868
     },
     {
       "label": "Zürich Hardbrücke",
@@ -142,13 +162,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Bikes, Walk",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "city-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.132075,
+      "weighted_degree_centrality": 0.440981,
+      "betweenness_centrality": 0.323807,
+      "network_influence_score": 0.309429
     },
     {
       "label": "Zürich Enge",
@@ -167,13 +191,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.09434,
+      "weighted_degree_centrality": 0.259593,
+      "betweenness_centrality": 0.401306,
+      "network_influence_score": 0.230097
     },
     {
       "label": "Zürich Flughafen",
@@ -192,13 +220,17 @@
       "has_bikeshare": false,
       "has_carshare": true,
       "first_mile_last_mile": "Bus, Car-Share",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "regional-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.229834,
+      "betweenness_centrality": 0.03701,
+      "network_influence_score": 0.130639
     },
     {
       "label": "Zürich Tiefenbrunnen",
@@ -217,13 +249,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.311864,
+      "betweenness_centrality": 0.092171,
+      "network_influence_score": 0.185188
     },
     {
       "label": "Zürich Wollishofen",
@@ -242,13 +278,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Walk, Scooters",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.174581,
+      "betweenness_centrality": 0.181422,
+      "network_influence_score": 0.134657
     },
     {
       "label": "Zürich Seebach",
@@ -267,13 +307,17 @@
       "has_bikeshare": false,
       "has_carshare": false,
       "first_mile_last_mile": "Bus, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "local-station",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.018868,
+      "weighted_degree_centrality": 0.077065,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.041283
     },
     {
       "label": "Zürich Affoltern",
@@ -292,13 +336,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Bikes, Bus",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "local-station",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.191238,
+      "betweenness_centrality": 0.077673,
+      "network_influence_score": 0.128007
     },
     {
       "label": "Zürich Leimbach",
@@ -323,7 +371,11 @@
         "zurich-mobility",
         "local-station",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.101207,
+      "betweenness_centrality": 0.005806,
+      "network_influence_score": 0.059912
     },
     {
       "label": "Zürich Giesshübel",
@@ -348,7 +400,11 @@
         "zurich-mobility",
         "local-station",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.109551,
+      "betweenness_centrality": 0.133527,
+      "network_influence_score": 0.089211
     },
     {
       "label": "Zürich Triemli",
@@ -367,13 +423,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Scooters, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.018868,
+      "weighted_degree_centrality": 0.078817,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.042071
     },
     {
       "label": "Zürich Albisrieden",
@@ -392,13 +452,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.214016,
+      "betweenness_centrality": 0.157201,
+      "network_influence_score": 0.140955
     },
     {
       "label": "Zürich Escher-Wyss-Platz",
@@ -417,13 +481,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Bikes, Scooters",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.24559,
+      "betweenness_centrality": 0.01449,
+      "network_influence_score": 0.139829
     },
     {
       "label": "Zürich Central",
@@ -442,13 +510,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.330534,
+      "betweenness_centrality": 0.02588,
+      "network_influence_score": 0.180331
     },
     {
       "label": "Zürich Bellevue",
@@ -467,13 +539,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Scooters, Bikes",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.132075,
+      "weighted_degree_centrality": 0.452534,
+      "betweenness_centrality": 0.068448,
+      "network_influence_score": 0.263556
     },
     {
       "label": "Zürich Paradeplatz",
@@ -492,13 +568,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.241703,
+      "betweenness_centrality": 0.066849,
+      "network_influence_score": 0.148551
     },
     {
       "label": "Zürich Sihlcity Nord",
@@ -517,13 +597,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.078037,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.048324
     },
     {
       "label": "Zürich Binz",
@@ -548,7 +632,11 @@
         "zurich-mobility",
         "local-station",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.105338,
+      "betweenness_centrality": 0.066763,
+      "network_influence_score": 0.073962
     },
     {
       "label": "District 1 City Center",
@@ -567,13 +655,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes, Scooters",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.183352,
+      "betweenness_centrality": 0.007254,
+      "network_influence_score": 0.110374
     },
     {
       "label": "District 2 Wollishofen Center",
@@ -592,13 +684,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Bikes, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.09434,
+      "weighted_degree_centrality": 0.28436,
+      "betweenness_centrality": 0.113208,
+      "network_influence_score": 0.183623
     },
     {
       "label": "District 3 Wiedikon Center",
@@ -617,13 +713,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.19644,
+      "betweenness_centrality": 0.001451,
+      "network_influence_score": 0.1085
     },
     {
       "label": "District 4 Aussersihl Center",
@@ -642,13 +742,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.323,
+      "betweenness_centrality": 0.017336,
+      "network_influence_score": 0.175232
     },
     {
       "label": "District 5 Industriequartier Center",
@@ -667,13 +771,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.173445,
+      "betweenness_centrality": 0.001209,
+      "network_influence_score": 0.098103
     },
     {
       "label": "District 6 Unterstrass Center",
@@ -692,13 +800,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.208072,
+      "betweenness_centrality": 0.010522,
+      "network_influence_score": 0.108944
     },
     {
       "label": "District 7 Fluntern Center",
@@ -723,7 +835,11 @@
         "zurich-mobility",
         "micro-hub",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.018868,
+      "weighted_degree_centrality": 0.00902,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.010663
     },
     {
       "label": "District 8 Riesbach Center",
@@ -742,13 +858,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.132651,
+      "betweenness_centrality": 0.004354,
+      "network_influence_score": 0.080375
     },
     {
       "label": "District 9 Altstetten Center",
@@ -767,13 +887,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.109723,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.062583
     },
     {
       "label": "District 10 Wipkingen Center",
@@ -792,13 +916,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Walk, Bikes",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.144844,
+      "betweenness_centrality": 0.095996,
+      "network_influence_score": 0.10419
     },
     {
       "label": "District 11 Affoltern Center",
@@ -817,13 +945,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Bikes, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.09434,
+      "weighted_degree_centrality": 0.256581,
+      "betweenness_centrality": 0.030818,
+      "network_influence_score": 0.154644
     },
     {
       "label": "District 12 Schwamendingen Center",
@@ -842,13 +974,17 @@
       "has_bikeshare": true,
       "has_carshare": false,
       "first_mile_last_mile": "Scooters, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.113208,
+      "weighted_degree_centrality": 0.341352,
+      "betweenness_centrality": 0.139332,
+      "network_influence_score": 0.221098
     },
     {
       "label": "Wiedikon Bahnhofplatz",
@@ -867,13 +1003,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.18006,
+      "betweenness_centrality": 0.075472,
+      "network_influence_score": 0.115933
     },
     {
       "label": "Hongg Meierhofplatz",
@@ -898,7 +1038,11 @@
         "zurich-mobility",
         "micro-hub",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.149194,
+      "betweenness_centrality": 0.001814,
+      "network_influence_score": 0.080708
     },
     {
       "label": "Affoltern Zehntenhausplatz",
@@ -923,7 +1067,11 @@
         "zurich-mobility",
         "micro-hub",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.153634,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.088947
     },
     {
       "label": "Schwamendingerplatz",
@@ -948,7 +1096,11 @@
         "zurich-mobility",
         "micro-hub",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.169481,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.096078
     },
     {
       "label": "Altstetten Lindenplatz",
@@ -967,13 +1119,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "micro-hub",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.131184,
+      "betweenness_centrality": 0.002177,
+      "network_influence_score": 0.07928
     },
     {
       "label": "Wollishofen Bahnhof",
@@ -998,7 +1154,11 @@
         "zurich-mobility",
         "micro-hub",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.144932,
+      "betweenness_centrality": 0.006531,
+      "network_influence_score": 0.079733
     },
     {
       "label": "Glattpark",
@@ -1017,13 +1177,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes, Walk",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.09434,
+      "weighted_degree_centrality": 0.283674,
+      "betweenness_centrality": 0.005564,
+      "network_influence_score": 0.161785
     },
     {
       "label": "Opfikon",
@@ -1042,13 +1206,17 @@
       "has_bikeshare": false,
       "has_carshare": true,
       "first_mile_last_mile": "Bus, Car-Share",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.217143,
+      "betweenness_centrality": 0.03701,
+      "network_influence_score": 0.131532
     },
     {
       "label": "Wallisellen",
@@ -1067,13 +1235,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Bus, Bikes",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "interchange",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.236015,
+      "betweenness_centrality": 0.074746,
+      "network_influence_score": 0.147571
     },
     {
       "label": "Dietikon",
@@ -1092,13 +1264,17 @@
       "has_bikeshare": false,
       "has_carshare": true,
       "first_mile_last_mile": "Bus, Car-Share",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "regional-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.018868,
+      "weighted_degree_centrality": 0.054651,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.031197
     },
     {
       "label": "Schlieren",
@@ -1117,13 +1293,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Bikes, Bus",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.220385,
+      "betweenness_centrality": 0.149492,
+      "network_influence_score": 0.155487
     },
     {
       "label": "Urdorf",
@@ -1148,7 +1328,11 @@
         "zurich-mobility",
         "local-station",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.018868,
+      "weighted_degree_centrality": 0.052544,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.030249
     },
     {
       "label": "Adliswil",
@@ -1167,13 +1351,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Bikes, Bus",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.108168,
+      "betweenness_centrality": 0.011611,
+      "network_influence_score": 0.064205
     },
     {
       "label": "Thalwil",
@@ -1192,13 +1380,17 @@
       "has_bikeshare": false,
       "has_carshare": true,
       "first_mile_last_mile": "Bus, Car-Share",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "regional-hub",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.018868,
+      "weighted_degree_centrality": 0.052455,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.030209
     },
     {
       "label": "Kilchberg",
@@ -1223,7 +1415,11 @@
         "zurich-mobility",
         "local-station",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.103162,
+      "betweenness_centrality": 0.075472,
+      "network_influence_score": 0.074725
     },
     {
       "label": "Zollikon",
@@ -1248,7 +1444,11 @@
         "zurich-mobility",
         "local-station",
         "low"
-      ]
+      ],
+      "degree_centrality": 0.018868,
+      "weighted_degree_centrality": 0.079442,
+      "betweenness_centrality": 0.0,
+      "network_influence_score": 0.042353
     },
     {
       "label": "Dübendorf",
@@ -1267,13 +1467,17 @@
       "has_bikeshare": false,
       "has_carshare": true,
       "first_mile_last_mile": "Bus, Car-Share",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": false,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.191026,
+      "betweenness_centrality": 0.000484,
+      "network_influence_score": 0.10587
     },
     {
       "label": "Stettbach",
@@ -1292,13 +1496,17 @@
       "has_bikeshare": true,
       "has_carshare": true,
       "first_mile_last_mile": "Scooters, Bikes, Bus",
-      "centrality": "High",
+      "centrality": "Low",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "interchange",
         "high"
-      ]
+      ],
+      "degree_centrality": 0.075472,
+      "weighted_degree_centrality": 0.22813,
+      "betweenness_centrality": 0.003387,
+      "network_influence_score": 0.129751
     },
     {
       "label": "Regensdorf-Watt",
@@ -1323,7 +1531,11 @@
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.037736,
+      "weighted_degree_centrality": 0.07863,
+      "betweenness_centrality": 0.027141,
+      "network_influence_score": 0.054019
     },
     {
       "label": "Kloten",
@@ -1342,13 +1554,17 @@
       "has_bikeshare": false,
       "has_carshare": true,
       "first_mile_last_mile": "Bus, Car-Share",
-      "centrality": "Medium",
+      "centrality": "Low",
       "is_regional_gateway": true,
       "tags": [
         "zurich-mobility",
         "interchange",
         "medium"
-      ]
+      ],
+      "degree_centrality": 0.056604,
+      "weighted_degree_centrality": 0.169244,
+      "betweenness_centrality": 0.000484,
+      "network_influence_score": 0.096068
     }
   ],
   "connections": [
@@ -1373,7 +1589,8 @@
       "tags": [
         "main-corridor",
         "peak-hour-stress"
-      ]
+      ],
+      "proximity_weight": 6.5875
     },
     {
       "from": "Zürich Hardbrücke",
@@ -1396,7 +1613,8 @@
       "tags": [
         "main-corridor",
         "peak-hour-stress"
-      ]
+      ],
+      "proximity_weight": 6.4253
     },
     {
       "from": "Zürich HB",
@@ -1419,7 +1637,8 @@
       "tags": [
         "main-corridor",
         "peak-hour-stress"
-      ]
+      ],
+      "proximity_weight": 6.1776
     },
     {
       "from": "Stadelhofen",
@@ -1442,7 +1661,8 @@
       "tags": [
         "main-corridor",
         "peak-hour-stress"
-      ]
+      ],
+      "proximity_weight": 5.9347
     },
     {
       "from": "Zürich Tiefenbrunnen",
@@ -1465,7 +1685,8 @@
       "tags": [
         "main-corridor",
         "peak-hour-stress"
-      ]
+      ],
+      "proximity_weight": 6.2266
     },
     {
       "from": "Zürich HB",
@@ -1488,7 +1709,8 @@
       "tags": [
         "main-corridor",
         "peak-hour-stress"
-      ]
+      ],
+      "proximity_weight": 6.4474
     },
     {
       "from": "Zürich Oerlikon",
@@ -1510,7 +1732,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 6.2856
     },
     {
       "from": "Zürich Oerlikon",
@@ -1532,7 +1755,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 6.0403
     },
     {
       "from": "Zürich Oerlikon",
@@ -1554,7 +1778,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 6.3394
     },
     {
       "from": "Wallisellen",
@@ -1576,7 +1801,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 6.0941
     },
     {
       "from": "Stettbach",
@@ -1598,7 +1824,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.2048
     },
     {
       "from": "Zürich HB",
@@ -1620,7 +1847,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.0973
     },
     {
       "from": "Zürich Wiedikon",
@@ -1642,7 +1870,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.3014
     },
     {
       "from": "Zürich Enge",
@@ -1664,7 +1893,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.1363
     },
     {
       "from": "Zürich Wollishofen",
@@ -1686,7 +1916,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 3.9744
     },
     {
       "from": "Kilchberg",
@@ -1708,7 +1939,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.1114
     },
     {
       "from": "Zürich Wiedikon",
@@ -1730,7 +1962,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.3766
     },
     {
       "from": "Zürich Giesshübel",
@@ -1752,7 +1985,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.2099
     },
     {
       "from": "Zürich Binz",
@@ -1774,7 +2008,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.0464
     },
     {
       "from": "Zürich Leimbach",
@@ -1796,7 +2031,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 3.8861
     },
     {
       "from": "Zürich Altstetten",
@@ -1818,7 +2054,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.3917
     },
     {
       "from": "Schlieren",
@@ -1840,7 +2077,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.2835
     },
     {
       "from": "Schlieren",
@@ -1862,7 +2100,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.1184
     },
     {
       "from": "Zürich Oerlikon",
@@ -1884,7 +2123,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 3.9565
     },
     {
       "from": "Opfikon",
@@ -1906,7 +2146,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.151
     },
     {
       "from": "Kloten",
@@ -1928,7 +2169,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 4.2982
     },
     {
       "from": "Zürich Altstetten",
@@ -1950,7 +2192,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 3.1428
     },
     {
       "from": "Regensdorf-Watt",
@@ -1972,7 +2215,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 3.0202
     },
     {
       "from": "Zürich Affoltern",
@@ -1994,7 +2238,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 3.1697
     },
     {
       "from": "Stadelhofen",
@@ -2016,7 +2261,8 @@
       "resilience_importance": "High",
       "tags": [
         "s-bahn-link"
-      ]
+      ],
+      "proximity_weight": 3.047
     },
     {
       "from": "Zürich Altstetten",
@@ -2038,7 +2284,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 8.5376
     },
     {
       "from": "Zürich Albisrieden",
@@ -2060,7 +2307,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 8.2368
     },
     {
       "from": "Zürich Wiedikon",
@@ -2082,7 +2330,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 7.9411
     },
     {
       "from": "Zürich Paradeplatz",
@@ -2104,7 +2353,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 7.6506
     },
     {
       "from": "Zürich Bellevue",
@@ -2126,7 +2376,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 8.0666
     },
     {
       "from": "Stadelhofen",
@@ -2148,7 +2399,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 7.776
     },
     {
       "from": "Zürich HB",
@@ -2170,7 +2422,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 8.1664
     },
     {
       "from": "Zürich Central",
@@ -2192,7 +2445,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 7.8707
     },
     {
       "from": "Zürich Central",
@@ -2214,7 +2468,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 8.3021
     },
     {
       "from": "District 6 Unterstrass Center",
@@ -2236,7 +2491,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 8.0064
     },
     {
       "from": "Zürich Oerlikon",
@@ -2258,7 +2514,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 7.7158
     },
     {
       "from": "Glattpark",
@@ -2280,7 +2537,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 7.4304
     },
     {
       "from": "Zürich Oerlikon",
@@ -2302,7 +2560,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 6.4032
     },
     {
       "from": "District 11 Affoltern Center",
@@ -2324,7 +2583,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 6.1776
     },
     {
       "from": "Zürich Oerlikon",
@@ -2346,7 +2606,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 5.9558
     },
     {
       "from": "District 12 Schwamendingen Center",
@@ -2368,7 +2629,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 5.7379
     },
     {
       "from": "Schwamendingerplatz",
@@ -2390,7 +2652,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 6.0499
     },
     {
       "from": "Zürich Hardbrücke",
@@ -2412,7 +2675,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 5.832
     },
     {
       "from": "Zürich Escher-Wyss-Platz",
@@ -2434,7 +2698,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 6.1248
     },
     {
       "from": "District 5 Industriequartier Center",
@@ -2456,7 +2721,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 5.903
     },
     {
       "from": "District 4 Aussersihl Center",
@@ -2478,7 +2744,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 6.2266
     },
     {
       "from": "Zürich Enge",
@@ -2500,7 +2767,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 6.0048
     },
     {
       "from": "District 2 Wollishofen Center",
@@ -2522,7 +2790,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 5.7869
     },
     {
       "from": "Wollishofen Bahnhof",
@@ -2544,7 +2813,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 5.5728
     },
     {
       "from": "District 3 Wiedikon Center",
@@ -2566,7 +2836,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 6.4032
     },
     {
       "from": "Wiedikon Bahnhofplatz",
@@ -2588,7 +2859,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 6.1776
     },
     {
       "from": "District 10 Wipkingen Center",
@@ -2610,7 +2882,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 5.9558
     },
     {
       "from": "Hongg Meierhofplatz",
@@ -2632,7 +2905,8 @@
       "resilience_importance": "High",
       "tags": [
         "tram-spine"
-      ]
+      ],
+      "proximity_weight": 5.7379
     },
     {
       "from": "Zürich HB",
@@ -2654,7 +2928,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 6.7424
     },
     {
       "from": "District 4 Aussersihl Center",
@@ -2676,7 +2951,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 6.4445
     },
     {
       "from": "Zürich Hardbrücke",
@@ -2698,7 +2974,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 6.1533
     },
     {
       "from": "Zürich Oerlikon",
@@ -2720,7 +2997,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 5.8688
     },
     {
       "from": "District 12 Schwamendingen Center",
@@ -2742,7 +3020,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 6.1645
     },
     {
       "from": "Zürich HB",
@@ -2764,7 +3043,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 6.5856
     },
     {
       "from": "District 1 City Center",
@@ -2786,7 +3066,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.4936
     },
     {
       "from": "Zürich Bellevue",
@@ -2808,7 +3089,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.288
     },
     {
       "from": "District 8 Riesbach Center",
@@ -2830,7 +3112,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.5064
     },
     {
       "from": "Zürich Enge",
@@ -2852,7 +3135,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.3008
     },
     {
       "from": "District 2 Wollishofen Center",
@@ -2874,7 +3158,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.592
     },
     {
       "from": "Zürich Wiedikon",
@@ -2896,7 +3181,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.384
     },
     {
       "from": "District 3 Wiedikon Center",
@@ -2918,7 +3204,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.6096
     },
     {
       "from": "Zürich Altstetten",
@@ -2940,7 +3227,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.4016
     },
     {
       "from": "District 9 Altstetten Center",
@@ -2962,7 +3250,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.1984
     },
     {
       "from": "Altstetten Lindenplatz",
@@ -2984,7 +3273,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.48
     },
     {
       "from": "District 10 Wipkingen Center",
@@ -3006,7 +3296,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.7128
     },
     {
       "from": "District 11 Affoltern Center",
@@ -3028,7 +3319,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.5024
     },
     {
       "from": "Affoltern Zehntenhausplatz",
@@ -3050,7 +3342,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.2968
     },
     {
       "from": "Glattpark",
@@ -3072,7 +3365,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.096
     },
     {
       "from": "Opfikon",
@@ -3094,7 +3388,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.816
     },
     {
       "from": "Wallisellen",
@@ -3116,7 +3411,8 @@
       "resilience_importance": "Medium",
       "tags": [
         "bus-backbone"
-      ]
+      ],
+      "proximity_weight": 4.6032
     },
     {
       "from": "Zürich HB",
@@ -3139,7 +3435,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.6402
     },
     {
       "from": "Zürich HB",
@@ -3162,7 +3459,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.5678
     },
     {
       "from": "Stadelhofen",
@@ -3185,7 +3483,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.4971
     },
     {
       "from": "Zürich Oerlikon",
@@ -3208,7 +3507,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.53
     },
     {
       "from": "Zürich Altstetten",
@@ -3231,7 +3531,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.6037
     },
     {
       "from": "Zürich Wiedikon",
@@ -3254,7 +3555,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.5322
     },
     {
       "from": "Zürich Hardbrücke",
@@ -3277,7 +3579,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.5667
     },
     {
       "from": "District 12 Schwamendingen Center",
@@ -3300,7 +3603,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.496
     },
     {
       "from": "District 11 Affoltern Center",
@@ -3323,7 +3627,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.5673
     },
     {
       "from": "Zürich Enge",
@@ -3346,7 +3651,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.6034
     },
     {
       "from": "Stettbach",
@@ -3369,7 +3675,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.5319
     },
     {
       "from": "Wallisellen",
@@ -3392,7 +3699,8 @@
       "tags": [
         "integration",
         "first-mile"
-      ]
+      ],
+      "proximity_weight": 1.462
     },
     {
       "from": "Zürich HB",
@@ -3415,7 +3723,8 @@
       "tags": [
         "infrastructure",
         "resilience"
-      ]
+      ],
+      "proximity_weight": 1.7012
     },
     {
       "from": "Zürich Paradeplatz",
@@ -3438,7 +3747,8 @@
       "tags": [
         "infrastructure",
         "resilience"
-      ]
+      ],
+      "proximity_weight": 1.6516
     },
     {
       "from": "Zürich Bellevue",
@@ -3461,7 +3771,8 @@
       "tags": [
         "infrastructure",
         "resilience"
-      ]
+      ],
+      "proximity_weight": 1.6027
     },
     {
       "from": "Zürich Hardbrücke",
@@ -3484,7 +3795,8 @@
       "tags": [
         "infrastructure",
         "resilience"
-      ]
+      ],
+      "proximity_weight": 1.5545
     },
     {
       "from": "Zürich Wiedikon",
@@ -3507,7 +3819,8 @@
       "tags": [
         "infrastructure",
         "resilience"
-      ]
+      ],
+      "proximity_weight": 1.5069
     },
     {
       "from": "Zürich Oerlikon",
@@ -3530,7 +3843,8 @@
       "tags": [
         "infrastructure",
         "resilience"
-      ]
+      ],
+      "proximity_weight": 1.4601
     },
     {
       "from": "Stadelhofen",
@@ -3553,7 +3867,8 @@
       "tags": [
         "infrastructure",
         "resilience"
-      ]
+      ],
+      "proximity_weight": 0.707
     },
     {
       "from": "Zürich Altstetten",
@@ -3576,7 +3891,8 @@
       "tags": [
         "infrastructure",
         "resilience"
-      ]
+      ],
+      "proximity_weight": 0.6842
     }
   ]
 }
